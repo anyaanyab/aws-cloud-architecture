@@ -17,7 +17,7 @@ main.tf:
 - Internet Gateway - enables internet access
 - Public Subnets - host resources in different availability zones
 - Route Table - manages network traffic flow
-- Security Group - controls inbound/outbound traffic
+- Security Groups - control inbound/outbound traffic
 
 launch_template.tf:
 - Launch Template - defines *EC2* instance configuration
@@ -50,7 +50,7 @@ user-data-az.sh:
 ## Requirements
 
 In order to implement this cloud architecture, following requirements have to be considered:
-- Terraform is installed on the computer (for example, using homebrew);
+- Terraform is installed on the computer (for example, using Homebrew);
 - AWS account is set up; access key and secret key have been retrieved;
 - Terraform extensions can be downloaded in the IDE (for example, in VSCode).
 
